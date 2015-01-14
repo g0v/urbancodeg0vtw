@@ -1,0 +1,160 @@
+body{
+	font-size: 10px;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+/*navbar*/
+
+.navbar{
+	background: #f8f8f8;
+	border-right:1px solid #d1d1d1;
+	padding:30px 25px;
+	margin-bottom: 0;
+}
+
+.title{
+	border-bottom:1px solid #d1d1d1;
+	padding-bottom: 20px;
+}
+
+.leftbar-title{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top:5px;
+}
+
+/*menu*/
+
+.menu ul{
+	padding: 15px 0;
+}
+
+.menu ul ul{
+	padding-top:5px;
+	margin-left: 10px;
+}
+
+.menu>ul>li{
+	font-size: 12px;
+}
+
+.menu a{
+	color:#4d4d4d;
+	padding:10px;
+	display: block;
+	font-size: 1.6em;
+}
+
+.menu a:hover{
+	color:#1ddda5;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	cursor: pointer;
+}
+
+/*content*/
+
+.content{
+	padding:30px 100px 30px 25px;
+}
+
+.content-title{
+	font-size: 30px;
+	font-weight: 800;
+	padding-bottom: 20px;
+	float:left;
+}
+
+form{
+	float:right;
+	margin-top: 5px;
+}
+
+input[name="search"]{
+	width:200px;
+	height:30px;
+	border-radius:15px;
+	padding: 5px 10px;
+	border:1px solid #d1d1d1;
+	margin-right: 5px;
+}
+
+
+hr{
+	clear:both;
+}
+
+.content h3{
+	margin: 40px 0 10px 0;
+}
+
+.context{
+	padding:10px 0;
+	position: relative;
+}
+
+.context h4{
+	padding:15px 0;
+	font-size: 18px;
+}
+
+.context p{
+	line-height: 1.6;
+	font-size: 16px;
+	padding-left: 50px;
+}
+
+.check{
+	color:#1ddda5;
+	position: relative;
+	
+}
+
+.check:hover{
+	color:#1ddda5;
+}
+
+
+.check-content{
+	position: absolute;
+	right: -25px;
+	font-size: 18px;
+	top:-70px;
+	width:200px;
+	background: #f3f3f3;
+	padding:10px;
+	color: #727272;
+	opacity:0;
+	visibility: hidden;
+	-webkit-transition: 0.2s all;
+	   -moz-transition: 0.2s all;
+	    -ms-transition: 0.2s all;
+	     -o-transition: 0.2s all;
+	        transition: 0.2s all;
+}
+
+.check-content:after{
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	width: 20px;
+	height: 15px;
+	background: #f3f3f3;
+	border-top: 15px solid #f3f3f3;
+	border-right: 10px solid white;
+	border-left: 10px solid white;
+}
+
+.check:hover .check-content{
+	-webkit-transition: 0.2s all;
+	   -moz-transition: 0.2s all;
+	    -ms-transition: 0.2s all;
+	     -o-transition: 0.2s all;
+	        transition: 0.2s all;
+	display: inline-block;	
+	visibility: inherit;
+	opacity:1;
+}
