@@ -20,18 +20,4 @@ tpup<-function(){
     }
     
     write.csv(link,"tp_web_list.csv",row.names=FALSE)
-    
-    #t<-link[2,1][[1]]
-    #t2<-gsub(">","",gsub("<","%",t))
-    #t3<-iconv(URLdecode(t2),"utf-8","big5")
-    #t3
-    
-    ##link[2,]<-iconv(link[2,],"utf-8","CP950")
-    
-    ##link[1,]<-paste("http://www.cpami.gov.tw",link[1,],sep="")
-    ##link<-data.frame(weblink=link[1,],filename=link[2,],stringsAsFactors = FALSE)
-    
-    ##link.list<-rbind(link.list,link)
-        
-    ##write.csv(link,"tp_link_list.csv",row.names=FALSE)    
 }
