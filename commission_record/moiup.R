@@ -30,7 +30,7 @@ moiup<-function(){
     
     close(pb)
     
-    write.csv(link.list,"link_list.csv",row.names=FALSE)
+    write.csv(link.list,"moiup_link_list.csv",row.names=FALSE)
 }
 
 dlrecord<-function(){
