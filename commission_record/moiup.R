@@ -33,7 +33,7 @@ moiup<-function(){
     write.csv(link.list,"moiup_link_list.csv",row.names=FALSE)
 }
 
-dlrecord<-function(){
+moi_dlrecord<-function(){
     library(httr)
     
     link.list<-read.csv("link_list.csv",stringsAsFactors=FALSE)
